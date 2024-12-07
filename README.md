@@ -14,8 +14,8 @@ To generate a token now, run: oathtool --totp 986f4ba5ea241a9dce10cc14e4c142b248
 Set up a virtual environment, install the dependencies, and run it:
 ```sh
 python3 -mvenv ./venv
-pip install -r requirements.txt
 source ./venv/bin/activate
+pip install -r requirements.txt
 ```
 
 # What does registration mean?
