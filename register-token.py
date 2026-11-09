@@ -25,7 +25,7 @@ def register_token(token, mobile_id):
 
     r = s.post(
         "https://globalftm.fortinet.net/SoftToken/Provisioning.asmx/Mobile",
-        json={"d": payload},
+        json={"d": payload}, timeout=30,
     )
 
     if r.status_code != 200:
